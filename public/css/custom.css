@@ -1,0 +1,41 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+#laravel-notify{
+    position: absolute;
+    z-index: 1000;
+}
+.main-header{
+    z-index: 2;
+}
+.containerPD{
+    margin: 0px 50px;
+}
+.price-box-bar button {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+}
+.btn-quantity-product{
+    background-color: black !important;
+}
